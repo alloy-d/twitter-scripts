@@ -12,7 +12,7 @@ A Python script to tweet the contents of your `.plan` file whenever you
 update it. It uses the credentials found in the file `credentials.py` (of
 which a sample is provided) for the Twitter account.
 
-It uses the git version of `pyinotify`, found
+Its requirements are the git version of `pyinotify`, found
 [here](http://trac.dbzteam.org/pyinotify/wiki), and `python-twitter`,
 available [here](http://code.google.com/p/python-twitter).
 
