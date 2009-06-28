@@ -31,7 +31,7 @@ happens, and a `post-receive` script, which posts commits to Twitter
 after receiving them (via a `push`, for example).
 
 Their requirements are GitPython, found
-[here](http://gitorious.org/git-python) and python-twitter, which you
+[here](http://gitorious.org/git-python), and python-twitter, which you
 can download [here](http://code.google.com/p/python-twitter).
 
 Sample hooks are provided which demonstrate how to use the scripts;
