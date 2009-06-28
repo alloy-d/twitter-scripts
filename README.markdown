@@ -30,8 +30,9 @@ a `post-commit` script, which posts each commit to Twitter as it
 happens, and a `post-receive` script, which posts commits to Twitter
 after receiving them (via a `push`, for example).
 
-Their requirements are [GitPython](http://gitorious.org/git-python)
-and [`python-twitter`](http://code.google.com/p/python-twitter).
+Their requirements are GitPython, found
+[here](http://gitorious.org/git-python) and python-twitter, which you
+can download [here](http://code.google.com/p/python-twitter).
 
 Sample hooks are provided which demonstrate how to use the scripts;
 they and the Python files should be placed in the `.git/hooks`
