@@ -21,3 +21,18 @@ To use it, simply run it (preferably in the background, since it doesn't
 daemonize itself yet):
 `python tweet_my_dot_plan.py &`
 
+
+git-hooks
+---------
+
+Several Python scripts for updating Twitter with git commits. There is
+a `post-commit` script, which posts each commit to Twitter as it
+happens, and a `post-receive` script, which posts commits to Twitter
+after receiving them (via a `push`, for example).
+
+Their requirements are [GitPython](http://gitorious.org/git-python)
+and [python-twitter](http://code.google.com/p/python-twitter).
+
+Sample hooks are provided which demonstrate how to use the scripts;
+they and the Python files should be placed in the `.git/hooks`
+directory of your repository.
