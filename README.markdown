@@ -37,3 +37,23 @@ can download [here](http://code.google.com/p/python-twitter).
 Sample hooks are provided which demonstrate how to use the scripts;
 they and the Python files should be placed in the `.git/hooks`
 directory of your repository.
+
+
+
+Copyright
+=========
+
+These scripts are copyright (C) 2009 Adam Lloyd.
+
+They are free software: you can redistribute them and/or modify
+them under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+They are distributed in the hope that they will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+For the full text of the GNU General Public License, see the
+[COPYING](master/COPYING) file.
