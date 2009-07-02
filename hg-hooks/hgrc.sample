@@ -1,0 +1,2 @@
+[hooks]
+incoming.twitter = python:hg_twitter_hooks.incoming
