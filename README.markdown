@@ -39,6 +39,17 @@ they and the Python files should be placed in the `.git/hooks`
 directory of your repository.
 
 
+hg-hooks
+--------
+
+Like `git-hooks`, but for Mercurial. (Minus a 'commit'
+hook--'incoming' is Mercurial's equivalent to Git's 'post-receive',
+though.)
+
+A sample `.hg/hgrc` is included here demonstrating how to use the
+hook. `hg_twitter_hooks.py` must be somewhere in your `PYTHON_PATH`.
+
+
 
 Copyright
 =========
