@@ -47,7 +47,7 @@ hook--'incoming' is Mercurial's equivalent to Git's 'post-receive',
 though.)
 
 A sample `.hg/hgrc` is included here demonstrating how to use the
-hook. `hg_twitter_hooks.py` must be somewhere in your `PYTHON_PATH`.
+hook. `hg_twitter_hooks.py` must be somewhere in your `PYTHONPATH`.
 
 
 
